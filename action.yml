@@ -1,0 +1,8 @@
+name: "Get used node version"
+description: "Get the node version used in the current project"
+outputs:
+  pkg-node-version:
+    description: "current node version defined in package.json"
+runs:
+  using: "docker"
+  image: "Dockerfile"
